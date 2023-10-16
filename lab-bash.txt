@@ -1,0 +1,575 @@
+(base) vidhya@srividhyas-air ~ % ls
+Applications			Movies
+Calibre Library			Music
+Desktop				Pictures
+Documents			Public
+Downloads			PycharmProjects
+Dropbox				java_error_in_pycharm_35869.log
+Library				opt
+MEGAsync			test_folder
+(base) vidhya@srividhyas-air ~ % cd Documents
+(base) vidhya@srividhyas-air Documents % ls
+Accounts.numbers						Job Search							Projects
+CCNP								Manga								R-172306_-_Koreaanse_noedels_met_tofu-FV (1).pdf
+CCNP CD								Medisch Passpoort modified.pdf					R-172325_-_Spätzle_in_romige_champignonsaus-FV (2).pdf
+Carnatic Music							My Tableau Repository						REsume trial.pages
+Coursera							Nederlands Ingang						Scratch
+Dutch Classes							Office stuff							Share
+Health Reports							Others								Van start
+Invitation letter						Palette								Vuze Downloads
+Ironhack Data Analytics Bootcamp				Passport Renewal						adhvik stuff
+(base) vidhya@srividhyas-air Documents % cd Ironhack Data Analytics Bootcamp
+cd: too many arguments
+(base) vidhya@srividhyas-air Documents % cd 'Ironhack Data Analystics Bootcamp'
+cd: no such file or directory: Ironhack Data Analystics Bootcamp
+(base) vidhya@srividhyas-air Documents % cd "Ironhack Data Analytics Bootcamp"
+(base) vidhya@srividhyas-air Ironhack Data Analytics Bootcamp %
+(base) vidhya@srividhyas-air Ironhack Data Analytics Bootcamp % ls
+BRFA0000000056.pdf	DA contract.pdf		Jupyter			Payment Receipt.pdf	Pre-work		Tech-me Up Contract.pdf
+(base) vidhya@srividhyas-air Ironhack Data Analytics Bootcamp %
+(base) vidhya@srividhyas-air Ironhack Data Analytics Bootcamp %
+(base) vidhya@srividhyas-air Ironhack Data Analytics Bootcamp % cd ..
+(base) vidhya@srividhyas-air Documents % cd..
+zsh: command not found: cd..
+(base) vidhya@srividhyas-air Documents %
+(base) vidhya@srividhyas-air Documents %
+(base) vidhya@srividhyas-air Documents % cd ..
+(base) vidhya@srividhyas-air ~ %
+(base) vidhya@srividhyas-air ~ %
+(base) vidhya@srividhyas-air ~ %
+(base) vidhya@srividhyas-air ~ %
+(base) vidhya@srividhyas-air ~ % mkdir IH-Labs
+(base) vidhya@srividhyas-air ~ %
+(base) vidhya@srividhyas-air ~ %
+(base) vidhya@srividhyas-air ~ % ls
+Applications			Documents			IH-Labs				Movies				Public				opt
+Calibre Library			Downloads			Library				Music				PycharmProjects			test_folder
+Desktop				Dropbox				MEGAsync			Pictures			java_error_in_pycharm_35869.log
+(base) vidhya@srividhyas-air ~ %
+(base) vidhya@srividhyas-air ~ %
+(base) vidhya@srividhyas-air ~ %
+(base) vidhya@srividhyas-air ~ %
+(base) vidhya@srividhyas-air ~ %
+(base) vidhya@srividhyas-air ~ %
+(base) vidhya@srividhyas-air ~ %
+(base) vidhya@srividhyas-air ~ % cd Documents
+(base) vidhya@srividhyas-air Documents % cd "Ironhack Data Analytics Bootcamp"
+(base) vidhya@srividhyas-air Ironhack Data Analytics Bootcamp %
+(base) vidhya@srividhyas-air Ironhack Data Analytics Bootcamp % mkdir IH-Labs
+(base) vidhya@srividhyas-air Ironhack Data Analytics Bootcamp %
+(base) vidhya@srividhyas-air Ironhack Data Analytics Bootcamp %
+(base) vidhya@srividhyas-air Ironhack Data Analytics Bootcamp % cd IH-Labs
+(base) vidhya@srividhyas-air IH-Labs % ls
+(base) vidhya@srividhyas-air IH-Labs %
+(base) vidhya@srividhyas-air IH-Labs %
+(base) vidhya@srividhyas-air IH-Labs %
+(base) vidhya@srividhyas-air IH-Labs % git clone https://github.com/svidhy/lab-bash.git
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+(base) vidhya@srividhyas-air IH-Labs % xcode-select -s /Applications/Xcode.app
+xcode-select: error: invalid developer directory '/Applications/Xcode.app'
+(base) vidhya@srividhyas-air IH-Labs % xcode-select --install
+xcode-select: note: install requested for command line developer tools
+(base) vidhya@srividhyas-air IH-Labs % git clone https://github.com/svidhy/lab-bash.git
+Cloning into 'lab-bash'...
+remote: Enumerating objects: 40, done.
+remote: Total 40 (delta 0), reused 0 (delta 0), pack-reused 40
+Receiving objects: 100% (40/40), 12.63 KiB | 2.53 MiB/s, done.
+Resolving deltas: 100% (11/11), done.
+(base) vidhya@srividhyas-air IH-Labs % ls
+lab-bash
+(base) vidhya@srividhyas-air IH-Labs % cd lab-bash
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls
+exercices	inputs		lorem		lorem-copy	outputs		readme.md
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % echo "Hello World"
+Hello World
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % mkdir new_dir
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls
+exercices	inputs		lorem		lorem-copy	new_dir		outputs		readme.md
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % rmdir new_dir
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls
+exercices	inputs		lorem		lorem-copy	outputs		readme.md
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % mkdir new_dir
+(base) vidhya@srividhyas-air lab-bash % rm new_dir
+rm: new_dir: is a directory
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % rm dir new_dir
+rm: dir: No such file or directory
+rm: new_dir: is a directory
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % rmdir new_dir
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls
+exercices	inputs		lorem		lorem-copy	outputs		readme.md
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls -al
+total 24
+drwxr-xr-x  11 vidhya  staff   352 Oct 16 12:39 .
+drwxr-xr-x   3 vidhya  staff    96 Oct 16 12:34 ..
+-rw-r--r--   1 vidhya  staff  6148 Oct 16 12:34 .DS_Store
+drwxr-xr-x  12 vidhya  staff   384 Oct 16 12:34 .git
+drwxr-xr-x   3 vidhya  staff    96 Oct 16 12:34 .github
+drwxr-xr-x   3 vidhya  staff    96 Oct 16 12:34 exercices
+drwxr-xr-x   3 vidhya  staff    96 Oct 16 12:34 inputs
+drwxr-xr-x   6 vidhya  staff   192 Oct 16 12:34 lorem
+drwxr-xr-x   5 vidhya  staff   160 Oct 16 12:34 lorem-copy
+drwxr-xr-x   3 vidhya  staff    96 Oct 16 12:34 outputs
+-rw-r--r--   1 vidhya  staff  2543 Oct 16 12:34 readme.md
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cp lorem/sed.txt lorem-copy/sed.txt
+(base) vidhya@srividhyas-air lab-bash % cd lorem-copy
+(base) vidhya@srividhyas-air lorem-copy % ls
+dummy_file.txt	sed.txt
+(base) vidhya@srividhyas-air lorem-copy %
+(base) vidhya@srividhyas-air lorem-copy %
+(base) vidhya@srividhyas-air lorem-copy %
+(base) vidhya@srividhyas-air lorem-copy % cd..
+zsh: command not found: cd..
+(base) vidhya@srividhyas-air lorem-copy % cd ..
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls
+exercices	inputs		lorem		lorem-copy	outputs		readme.md
+(base) vidhya@srividhyas-air lab-bash % cd lorem
+(base) vidhya@srividhyas-air lorem % ls
+at.txt		at.txte		lorem.txt	sed.txt
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem % cd ..
+(base) vidhya@srividhyas-air lab-bash % ls
+exercices	inputs		lorem		lorem-copy	outputs		readme.md
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cp -a lorem/ lorem-copy/
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls
+exercices	inputs		lorem		lorem-copy	outputs		readme.md
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cd lorem-copy
+(base) vidhya@srividhyas-air lorem-copy % ls
+at.txt		at.txte		dummy_file.txt	lorem.txt	sed.txt
+(base) vidhya@srividhyas-air lorem-copy %
+(base) vidhya@srividhyas-air lorem-copy %
+(base) vidhya@srividhyas-air lorem-copy %
+(base) vidhya@srividhyas-air lorem-copy %
+(base) vidhya@srividhyas-air lorem-copy %
+(base) vidhya@srividhyas-air lorem-copy % cd ..
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cat lorem-copy/sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cat lorem/sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+(base) vidhya@srividhyas-air lab-bash % cat lorem/at.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga.
+Et harum quidem rerum facilis est ET expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET
+ut ET voluptates repudiandae sint ET molestiae non recusandae.
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat
+(base) vidhya@srividhyas-air lab-bash % cat lorem/lorem.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.%
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % head -3 lorem-copy/sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+(base) vidhya@srividhyas-air lab-bash % tail -3 lorem-copy/sed.txt
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cat lorem/sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % echo "Homo homini lupus" >> lorem-copy/sed.txt
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % tail -1 lorem-copy/sed.txt
+Homo homini lupus
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % tail -3 lorem-copy/sed.txt
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+Homo homini lupus
+(base) vidhya@srividhyas-air lab-bash % cd lorem
+(base) vidhya@srividhyas-air lorem % ks
+zsh: command not found: ks
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem % ls
+at.txt		at.txte		lorem.txt	sed.txt
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem % cd ..
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cp lorem/sed.txt sede.txt
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cd lorem
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem % ls
+at.txt		at.txte		lorem.txt	sed.txt
+(base) vidhya@srividhyas-air lorem % cd ..
+(base) vidhya@srividhyas-air lab-bash % ls
+exercices	inputs		lorem		lorem-copy	outputs		readme.md	sede.txt
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cp lorem/at.txt ate.txt
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % sed -i 's/et/ET/g' ate.txt
+sed: 1: "ate.txt": command a expects \ followed by text
+(base) vidhya@srividhyas-air lab-bash % sed -i 's/et/ET/g' /ate.txt
+sed: 1: "/ate.txt": unterminated regular expression
+(base) vidhya@srividhyas-air lab-bash % sed -i 's/et/ET/g' \ ate.txt
+sed: 1: " ate.txt": command a expects \ followed by text
+(base) vidhya@srividhyas-air lab-bash % sed -i'' -e  's/et/ET/g' \ ate.txt
+sed:  ate.txt: No such file or directory
+(base) vidhya@srividhyas-air lab-bash % sed -i'' -e  's/et/ET/g' ate.txt
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cat ate.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga.
+Et harum quidem rerum facilis est ET expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET
+ut ET voluptates repudiandae sint ET molestiae non recusandae.
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % sed -i'' -e  's/et/ET/g' lorem/at.txt
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cat lorem/at.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga.
+Et harum quidem rerum facilis est ET expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET
+ut ET voluptates repudiandae sint ET molestiae non recusandae.
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % whoami
+vidhya
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % finger user
+Login: _cmiodalassistants			Name: CoreMedia IO Assistants User
+Directory: /var/db/cmiodalassistants	Shell: /usr/bin/false
+Never logged in.
+No Mail.
+No Plan.
+
+Login: _eppc          			Name: Apple Events User
+Directory: /var/empty               	Shell: /usr/bin/false
+Never logged in.
+No Mail.
+No Plan.
+
+Login: _hidd          			Name: HID Service User
+Directory: /var/db/hidd             	Shell: /usr/bin/false
+Never logged in.
+No Mail.
+No Plan.
+
+Login: _mbsetupuser   			Name: Setup User
+Directory: /var/setup               	Shell: /bin/bash
+Never logged in.
+No Mail.
+No Plan.
+
+Login: _mobileasset   			Name: MobileAsset User
+Directory: /var/ma                  	Shell: /usr/bin/false
+Never logged in.
+No Mail.
+No Plan.
+
+Login: _unknown       			Name: Unknown User
+Directory: /var/empty               	Shell: /usr/bin/false
+Never logged in.
+No Mail.
+No Plan.
+
+Login: nobody         			Name: Unprivileged User
+Directory: /var/empty               	Shell: /usr/bin/false
+Never logged in.
+No Mail.
+No Plan.
+(base) vidhya@srividhyas-air lab-bash % /etc/pwd
+zsh: no such file or directory: /etc/pwd
+(base) vidhya@srividhyas-air lab-bash % pwd
+/Users/vidhya/Documents/Ironhack Data Analytics Bootcamp/IH-Labs/lab-bash
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % less /etc/pwd
+/etc/pwd: No such file or directory
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % id -un
+vidhya
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % id -F
+Srividhya S
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls lorem/*.txt
+lorem/at.txt	lorem/lorem.txt	lorem/sed.txt
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cat lorem/sed.txt | wc -l
+       9
+(base) vidhya@srividhyas-air lab-bash % cat lorem/sed.txt | wc
+       9     131     891
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cat lorem/sed.txt | wc -l
+       9
+(base) vidhya@srividhyas-air lab-bash % cat lorem/sed.txt | wc
+       9     131     891
+(base) vidhya@srividhyas-air lab-bash % cd lorem
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem % ls -l
+total 40
+-rwxr-xr-x  1 vidhya  staff  853 Oct 16 13:16 at.txt
+-rwxr-xr-x  1 vidhya  staff  853 Oct 16 12:34 at.txt-e
+-rwxr-xr-x  1 vidhya  staff  852 Oct 16 12:34 at.txte
+-rwxr-xr-x  1 vidhya  staff  448 Oct 16 12:34 lorem.txt
+-rwxr-xr-x  1 vidhya  staff  891 Oct 16 12:34 sed.txt
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem % head at.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga.
+Et harum quidem rerum facilis est ET expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET
+ut ET voluptates repudiandae sint ET molestiae non recusandae.
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat
+(base) vidhya@srividhyas-air lorem % head lorem
+head: lorem: No such file or directory
+(base) vidhya@srividhyas-air lorem % head lorem.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.%
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem %
+(base) vidhya@srividhyas-air lorem % cd ..
+(base) vidhya@srividhyas-air lab-bash % ls /lab-bash/lorem
+ls: /lab-bash/lorem: No such file or directory
+(base) vidhya@srividhyas-air lab-bash % find directory/ -type f -name "lorem" | wc -l
+find: directory/: No such file or directory
+       0
+(base) vidhya@srividhyas-air lab-bash % find lab-bash/ -type f -name "lorem" | wc -l
+find: lab-bash/: No such file or directory
+       0
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cd ..
+(base) vidhya@srividhyas-air IH-Labs % find lab-bash/ -type f -name "lorem" | wc -l
+       0
+(base) vidhya@srividhyas-air IH-Labs %
+(base) vidhya@srividhyas-air IH-Labs %
+(base) vidhya@srividhyas-air IH-Labs %
+(base) vidhya@srividhyas-air IH-Labs % cd lab-bash
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % grep -l "lorem" *
+grep: exercices: Is a directory
+grep: inputs: Is a directory
+grep: lorem: Is a directory
+grep: lorem-copy: Is a directory
+grep: outputs: Is a directory
+readme.md
+sede.txt
+(base) vidhya@srividhyas-air lab-bash % grep -l "lorem" * | wc -l
+grep: exercices: Is a directory
+grep: inputs: Is a directory
+grep: lorem: Is a directory
+grep: lorem-copy: Is a directory
+grep: outputs: Is a directory
+       2
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % read $input
+vidhya
+(base) vidhya@srividhyas-air lab-bash % echo $input
+
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % read input
+vidhya
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % echo $input
+vidhya
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls -l
+total 32
+-rwxr-xr-x  1 vidhya  staff   853 Oct 16 13:15 ate.txt
+-rwxr-xr-x  1 vidhya  staff   853 Oct 16 13:11 ate.txt-e
+drwxr-xr-x  3 vidhya  staff    96 Oct 16 12:34 exercices
+drwxr-xr-x  3 vidhya  staff    96 Oct 16 12:34 inputs
+drwxr-xr-x  7 vidhya  staff   224 Oct 16 13:16 lorem
+drwxr-xr-x  9 vidhya  staff   288 Oct 16 12:34 lorem-copy
+drwxr-xr-x  3 vidhya  staff    96 Oct 16 12:34 outputs
+-rw-r--r--  1 vidhya  staff  2543 Oct 16 12:34 readme.md
+-rwxr-xr-x  1 vidhya  staff   891 Oct 16 13:05 sede.txt
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % mkdir $input
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls -l
+total 32
+-rwxr-xr-x  1 vidhya  staff   853 Oct 16 13:15 ate.txt
+-rwxr-xr-x  1 vidhya  staff   853 Oct 16 13:11 ate.txt-e
+drwxr-xr-x  3 vidhya  staff    96 Oct 16 12:34 exercices
+drwxr-xr-x  3 vidhya  staff    96 Oct 16 12:34 inputs
+drwxr-xr-x  7 vidhya  staff   224 Oct 16 13:16 lorem
+drwxr-xr-x  9 vidhya  staff   288 Oct 16 12:34 lorem-copy
+drwxr-xr-x  3 vidhya  staff    96 Oct 16 12:34 outputs
+-rw-r--r--  1 vidhya  staff  2543 Oct 16 12:34 readme.md
+-rwxr-xr-x  1 vidhya  staff   891 Oct 16 13:05 sede.txt
+drwxr-xr-x  2 vidhya  staff    64 Oct 16 13:38 vidhya
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % rmdir $input
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls -l
+total 32
+-rwxr-xr-x  1 vidhya  staff   853 Oct 16 13:15 ate.txt
+-rwxr-xr-x  1 vidhya  staff   853 Oct 16 13:11 ate.txt-e
+drwxr-xr-x  3 vidhya  staff    96 Oct 16 12:34 exercices
+drwxr-xr-x  3 vidhya  staff    96 Oct 16 12:34 inputs
+drwxr-xr-x  7 vidhya  staff   224 Oct 16 13:16 lorem
+drwxr-xr-x  9 vidhya  staff   288 Oct 16 12:34 lorem-copy
+drwxr-xr-x  3 vidhya  staff    96 Oct 16 12:34 outputs
+-rw-r--r--  1 vidhya  staff  2543 Oct 16 12:34 readme.md
+-rwxr-xr-x  1 vidhya  staff   891 Oct 16 13:05 sede.txt
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls lorem*
+lorem:
+at.txt		at.txt-e	at.txte		lorem.txt	sed.txt
+
+lorem-copy:
+at.txt		at.txte		dummy_file.txt	lorem.txt	sed.txt
+(base) vidhya@srividhyas-air lab-bash % | wc -l
+zsh: parse error near `|'
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls lorem* | wc -l
+      13
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % ls lorem*| wc -l
+      13
+(base) vidhya@srividhyas-air lab-bash % ls lorem*|wc -l
+      13
+(base) vidhya@srividhyas-air lab-bash % ls
+ate.txt		ate.txt-e	exercices	inputs		lorem		lorem-copy	outputs		readme.md	sede.txt
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash %
+(base) vidhya@srividhyas-air lab-bash % cd ..
+(base) vidhya@srividhyas-air IH-Labs %
+(base) vidhya@srividhyas-air IH-Labs %
+(base) vidhya@srividhyas-air IH-Labs %
+(base) vidhya@srividhyas-air IH-Labs % ls
+lab-bash
